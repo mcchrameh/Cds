@@ -1484,7 +1484,7 @@ void Parallel_CahnHill2D::parallel_solver()
                 count++;
         //                        cout<<"#"<<"\t"
            }
-           SendToMaster( count);
+           //SendToMaster( count);
            WriteToFile();
          //  WriteToFile_MPI();
 
